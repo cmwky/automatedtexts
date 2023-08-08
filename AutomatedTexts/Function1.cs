@@ -19,7 +19,7 @@ namespace AutomatedTexts
             TwilioClient.Init(accountSid, authToken);
 
             var message = MessageResource.Create(
-                body: "This is a text.. I mean, test.",
+                body: "May the Force be with you, Always.",
                 from: new Twilio.Types.PhoneNumber(sender),
                 to: new Twilio.Types.PhoneNumber(recipient)
             );
