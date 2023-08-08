@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Function App automatedtexts-func
 on:
   push:
     branches:
-    - master
+    - main
 env:
   AZURE_FUNCTIONAPP_NAME: 'automatedtexts-functionapp'
   AZURE_FUNCTIONAPP_PACKAGE_PATH: '.'
